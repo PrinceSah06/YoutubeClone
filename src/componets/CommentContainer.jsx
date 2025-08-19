@@ -4,6 +4,7 @@ import { objrendom } from "../constants/const";
 const Comment = ({ data }) => {
  
 
+  let i=12
   const { name, replies, message } = data;
   return (
     <div className="bg-gray-300  p-2 border flex gap-1  ">
